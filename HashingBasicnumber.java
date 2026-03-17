@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HashingBasic {
+public class HashingBasicnumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -14,7 +14,7 @@ public class HashingBasic {
         }
         int a = sc.nextInt();
         for (int i = 0; i < a; i++) {
-            System.err.println(hasharr[sc.nextInt()]);
+            System.out.println(hasharr[sc.nextInt()]);
         }
         sc.close();
     }
