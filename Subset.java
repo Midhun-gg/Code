@@ -10,6 +10,7 @@ public class Subset {
         }
         boolean[][] dp=new boolean[n+1][t+1];
         sub(arr,dp,t,n);
+        sc.close();
     }
     public static void sub(int[] arr,boolean[][] dp,int t,int n){
         for(int i=0;i<=n;i++){

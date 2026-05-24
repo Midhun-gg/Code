@@ -18,5 +18,6 @@ public class Lcs{
             }
         }
         System.out.println(dp[n][m]);
+        sc.close();
     }
 }

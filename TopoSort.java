@@ -27,5 +27,6 @@ public class TopoSort {
                 if(--indeg[v]==0) queue.add(v);
             }
         }
+        sc.close();
     }
 }

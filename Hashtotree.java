@@ -13,5 +13,6 @@ public class Hashtotree {
         }
         TreeMap<String,Integer> treeMap=new TreeMap<>(map);
         System.out.println(treeMap);
+        sc.close();
     }
 }

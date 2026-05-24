@@ -60,5 +60,6 @@ public class LeftView {
         for (int val : result) {
             System.out.print(val + " ");
         }
+        sc.close();
     }
 }

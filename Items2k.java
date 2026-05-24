@@ -10,6 +10,7 @@ public class Items2k {
         }
         if(validd(arr,n,k)) System.out.println("True");
         else System.out.println("False");
+        sc.close();
     }
     public static boolean validd(int[] arr,int n,int k){
         HashMap<Integer,Integer> map=new HashMap<>();

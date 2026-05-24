@@ -12,6 +12,7 @@ public class Knapsack{
         int W=sc.nextInt();
         int[][] dp=new int[n+1][W+1];
         knap(wt,val,W,dp);
+        sc.close();
     }
     public static void knap(int[] wt,int[] val,int W,int[][] dp){
         int n=wt.length;

@@ -15,5 +15,6 @@ public class Lps{
             }
         }
         System.out.println(dp[0][n-1]);
+        sc.close();
     }
 }
